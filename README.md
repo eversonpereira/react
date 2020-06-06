@@ -1,3 +1,9 @@
+# Projeto reactJS para pós gradução UniFacef
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2c27bc54-e32e-402a-ae57-801f03b325b1/deploy-status)](https://app.netlify.com/sites/unifacef-react/deploys)
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
