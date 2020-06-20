@@ -21,6 +21,7 @@ import Loading from './components/loading';
 
 const rootElement = document.getElementById('root');
 const browserHistory = createBrowserHistory();
+
 const history = syncHistoryWithStore(browserHistory, router);
 
 ReactDOM.render(
@@ -28,14 +29,10 @@ ReactDOM.render(
     <Provider {...store}>
       <Loading />
       <Router history={history}>
-        <Routes />
+          <Routes />
       </Router>
     </Provider>
   </React.StrictMode>,
   rootElement
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+serviceWorker.register();

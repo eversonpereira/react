@@ -56,22 +56,22 @@ export default class StarWarsDetails extends React.Component<RouteComponentProps
 
             <Card.Content>
               <p>Personagens:</p>
-              <List divided={true} relaxed={true}>
+              <List divided relaxed>
                 {film.characters?.map((character, indexChar) => {
                   return (
-                    <List.Item key={indexChar}>
+                    <List.Item>
                       {character.name}
                     </List.Item>)
                 })}
               </List>
-            </Card.Content>
 
+            </Card.Content>
             <Card.Content>
               <Button onClick={() => goBack()}>Voltar</Button>
             </Card.Content>
-
           </Card>
         </Card.Group>
+
       </Container>
     );
   }
