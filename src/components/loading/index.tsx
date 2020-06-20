@@ -6,7 +6,7 @@ export default class Loading extends React.Component {
     return (
       // LoadingWall deixa a tela opaca e bloqueia que o usuário interaja enquanto carrega
       <div id='loadingSpinner' className='loadingWall' data-requests='0'>
-        // Carrega circulo do loading
+        {/*  Carrega circulo do loading */}
         <div className='loadingCircle' />
       </div>);
   }
