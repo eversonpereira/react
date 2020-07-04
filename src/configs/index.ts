@@ -5,5 +5,4 @@ export const configs = {
     },
     sentry: process.env.REACT_APP_SENTRY_DSN,
     onesignal: process.env.REACT_APP_ONE_SIGNAL!
-    // Colocar exclamação significa que ele sempre vai receber um parametro, forçando a tipagem a aceitar string nesse caso.
 }
