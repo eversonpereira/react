@@ -1,7 +1,8 @@
 {
   "name": "unifacef-react-typescript",
   "version": "0.1.0",
-  "private": true,
+  "private": "true",
+  "license" : "SEE LICENSE IN LICENSE",
   "dependencies": {
     "@sentry/browser": "^5.16.1",
     "axios": "^0.19.2",
